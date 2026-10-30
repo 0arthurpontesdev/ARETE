@@ -1,0 +1,41 @@
+{
+  "name": "zoom-videoconference-frontend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start --web",
+    "web": "expo start --web",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "@expo/metro-runtime": "~3.2.3",
+    "@livekit/track-processors": "^0.8.2",
+    "expo": "~51.0.38",
+    "expo-status-bar": "~1.12.1",
+    "livekit-client": "^2.5.8",
+    "lucide-react-native": "^0.400.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native": "0.74.5",
+    "react-native-svg": "15.2.0",
+    "react-native-web": "~0.19.12"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "@playwright/test": "^1.45.0",
+    "@testing-library/react": "^14.3.1",
+    "@types/react": "~18.2.45",
+    "@types/react-dom": "~18.2.18",
+    "@vitejs/plugin-react": "^4.7.0",
+    "jsdom": "^24.1.0",
+    "lucide-react": "^1.65.0",
+    "typescript": "^5.3.3",
+    "vite": "^5.4.21",
+    "vitest": "^1.6.0"
+  },
+  "private": true
+}

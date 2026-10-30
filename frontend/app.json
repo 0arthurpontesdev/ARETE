@@ -1,0 +1,16 @@
+{
+  "expo": {
+    "name": "Zoom Videoconference MVP",
+    "slug": "zoom-videoconference-mvp",
+    "version": "1.0.0",
+    "orientation": "default",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#121418"
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
